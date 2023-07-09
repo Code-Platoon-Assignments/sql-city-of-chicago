@@ -2,7 +2,7 @@
 In this challenge, we are going to grab a live data set from the City of Chicago, parse through the columns, clean the data as it comes in, and insert it into the database. After that, we'll query the database and find some important data points.
 
 ## Release 0: Get the dataset
-Visit [the data portal](https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w) and download the CSV. There should be a pretty significant number of rows!
+Visit [the data portal](https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w) and download the CSV (Export Button -> CSV). There should be a pretty significant number of rows!
 
 ## Release 1: Create a database
 Create a database on your computer called `chicago_salaries` using the PSQL command. Using Psycopg, we want to create an `employees` table with the following columns:
